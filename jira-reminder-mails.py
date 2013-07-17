@@ -7,7 +7,7 @@ from jira.client import JIRA
 from pprint import pprint as pp
 
 options = {
-    'server': 'http://ticket.ps-toys.de'
+    'server': 'http://foo.bar'
 }
 
 j = JIRA(options, basic_auth=('username', 'password'))
